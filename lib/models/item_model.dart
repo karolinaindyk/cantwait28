@@ -1,3 +1,5 @@
+import 'package:intl/intl.dart';
+
 class ItemModel {
   ItemModel({
     required this.id,
@@ -16,6 +18,6 @@ class ItemModel {
   }
 
   String relaseDateFormated() {
-    return 'example';
+    return DateFormat.yMMMEd().format(relaseDate);
   }
 }
