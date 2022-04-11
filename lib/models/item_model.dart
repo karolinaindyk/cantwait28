@@ -14,4 +14,8 @@ class ItemModel {
   String daysLeft() {
     return relaseDate.difference(DateTime.now()).inDays.toString();
   }
+
+  String relaseDateFormated() {
+    return 'example';
+  }
 }
